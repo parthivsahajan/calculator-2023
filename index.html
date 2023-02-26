@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+    <div class="calculator ">
+        <div class="out-put">
+           <input maxlength="100" type="text" id="screen">
+        </div>
+    <div class="buttons-container">
+        <button onclick="clearDisplay()" class="button function ac ">AC</button>
+        <button onclick="backClick()" class="button function back">&#9003;</button>
+        <button onclick="buttonclick('%')"class="button function percent">%</button>
+        <button onclick="buttonclick('/')" class="button function division  ">/</button>
+        <button onclick="buttonclick(7)" class="button number-7">7</button>
+        <button onclick="buttonclick(8)" class="button number-8">8</button>
+        <button onclick="buttonclick(9)" class="button number-9">9</button>
+        <button onclick="buttonclick('*')" class="button operator multiplication">x</button>
+        <button onclick="buttonclick(4)" class="button number-4">4</button>
+        <button onclick="buttonclick(5)" class="button number-5">5</button>
+        <button onclick="buttonclick(6)" class="button number-6">6</button>
+        <button onclick="buttonclick('-')" class="button operator subtraction">-</button>
+        <button onclick="buttonclick(1)" class="button number-1">1</button>
+        <button onclick="buttonclick(2)" class="button number-2">2</button>
+        <button onclick="buttonclick(3)" class="button number-3">3</button>
+        <button onclick="buttonclick('+')" class="button operator addition">+</button>
+        <button onclick="buttonclick(0)" class="button number-0">0</button>
+        <button onclick="buttonclick('.')" class="button decimal">.</button>
+        <button onclick="equalClick()" class="button operator equal">=</button>
+        
+
+    </div>
+
+    </div>
+    
+</body>
+<!---- to link js file----->
+<script src="./calc.js"></script>
+ 
+</html>
